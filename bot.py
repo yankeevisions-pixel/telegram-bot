@@ -11,6 +11,8 @@ from telegram.ext import (
 )
 
 TOKEN = os.getenv("TOKEN")
+print("TOKEN =", TOKEN)
+
 ADMIN_ID = 2006976532
 
 NAME, PHONE, SERVICE = range(3)
